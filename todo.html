@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery items app</title>
+</head>
+<!-- css -->
+<style>
+    .clear {
+        display: none;
+    }
+    
+    .fa.fa-pencil {
+        background-color: white;
+    }
+    
+    .clear.active {
+        display: block;
+    }
+    
+    .alert-success {
+        background-color: lightgreen;
+    }
+    
+    .alert-danger {
+        background-color: pink;
+    }
+    
+    .container {
+        margin: 10% 0 0 35%;
+    }
+    
+    .list {
+        border: 1px solid none;
+    }
+    
+    .alert {
+        width: 20%;
+        padding: 0.5%;
+        margin-bottom: 1%;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="alert"></div>
+        <form action="" id="form">
+            <input type="text" placeholder="eg:egg" class="item" />
+            <button class="add" type="button">Add</button>
+        </form>
+        <section class="list"></section>
+        <br />
+        <button class="clear">Clear All</button>
+    </div>
+    <!-- javascript -->
+    <script src="todo.js"></script>
+</body>
+
+</html>
